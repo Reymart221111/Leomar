@@ -1,0 +1,116 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(https://www.si.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTg0NzQ3NTAyNTcyOTM4MzYw/usatsi_17001062_168388303_lowres.jpg);
+    background-size: cover;
+    background-position: center-left;
+}
+
+
+header {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav li:hover {
+	 background-color: #0056b3;
+}
+
+nav a {
+	font-size: 1rem;
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.hero {
+    text-align: center;
+    padding: 100px 0;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0074b8;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+		    background-color: #0056b3;
+		}
+
+
+footer {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    color: #fff;
+}
+.sub-menu {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+nav li:hover .sub-menu {
+    display: block;
+}
+
+.sub-menu li {
+    display: block;
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+
+.sub-menu li:hover {
+    background-color: #0074b8;
+}
+
+.sub-menu a {
+    color: white;
+	font-size: 0.8rem;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    transition: color 0.3s;
+}
